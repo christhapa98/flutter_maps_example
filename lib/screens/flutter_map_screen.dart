@@ -1,13 +1,9 @@
 import 'dart:developer';
-
 import 'package:flutter/material.dart';
-// import 'package:flutter_map/flutter_map.dart';
 import 'package:flutter_map/plugin_api.dart';
 import 'package:latlong2/latlong.dart';
 import 'dart:math' show cos, sqrt, asin;
-
 import 'package:map_project/models/map_marker.dart';
-import 'package:map_project/utils/show_custom_snack_bar.dart';
 
 class FlutterMapScreen extends StatefulWidget {
   const FlutterMapScreen({Key? key}) : super(key: key);
