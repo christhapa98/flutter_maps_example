@@ -2,7 +2,7 @@ import 'package:latlong2/latlong.dart';
 
 class MapMarker {
   LatLng latLng;
-  String distanceFromOrigin;
+  double? distanceFromOrigin;
 
-  MapMarker(this.latLng, this.distanceFromOrigin);
+  MapMarker({required this.latLng, this.distanceFromOrigin});
 }
